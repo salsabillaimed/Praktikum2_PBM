@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aplikasi Tugas',
+      title: 'Tugas Aplikasi PBM',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: "Tugas 3 Praktikum"),
+      home: const MyHomePage(title: "Praktikum 3 PBM"),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -51,15 +51,15 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             isVisible
                 ? const Text(
-                    'Nama Belakang',
+                    'Salsabilla',
                     style: TextStyle(
-                        fontSize: 26,
-                        color: Colors.red,
-                        fontStyle: FontStyle.italic),
+                        fontSize: 30,
+                        color: Colors.brown,
+                        fontStyle: FontStyle.normal),
                   )
                 : const Text(
-                    "Nama Depan",
-                    style: TextStyle(fontSize: 26, color: Colors.green),
+                    "Medhiani",
+                    style: TextStyle(fontSize: 30, color: Colors.brown),
                   ),
           ],
         ),

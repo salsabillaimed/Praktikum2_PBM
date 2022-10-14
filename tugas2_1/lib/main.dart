@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Tugas 2',
+      title: 'Praktikum PBM 2',
       theme: ThemeData(
-        primarySwatch: Colors.amber,
+        primarySwatch: Colors.pink,
       ),
-      home: const MyHomePage(title: 'Halaman Awal'),
+      home: const MyHomePage(title: 'Halaman Utama'),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -48,8 +48,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Kamu telah menekan tombol sebanyak',
-              style: TextStyle(fontSize: _counter, color: Colors.green),
+              'Anda sudah mengklik button + sebanyak',
+              style: TextStyle(fontSize: _counter, color: Colors.purple.shade100),
             ),
             Text(
               '$_counter',
